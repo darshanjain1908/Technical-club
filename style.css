@@ -1,0 +1,133 @@
+body {
+  background: #050818;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  background: #0a1030;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo { color: cyan; margin: 0; }
+.logo span { color: #b266ff; }
+
+.links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.links a:hover { color: cyan; }
+
+/* Home */
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 40px;
+}
+
+.hero-text { width: 50%; }
+.hero h1 { font-size: 50px; margin: 20px 0 5px; }
+.hero p { color: #b5bbe0; }
+
+.tag {
+  border: 2px solid #4d7cff;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+.name {
+  color: cyan;
+  text-shadow: 0 0 15px cyan;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 0 0;
+}
+
+.btn1 { background: #8a3ffc; }
+.btn2 { border: 2px solid cyan; }
+
+/* Glowing circle */
+.circle {
+  width: 220px;
+  height: 220px;
+  line-height: 220px;
+  border-radius: 50%;
+  background: #6a3df0;
+  box-shadow: 0 0 50px #b266ff;
+  text-align: center;
+  font-size: 60px;
+  color: cyan;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 20px;
+  padding: 30px 40px;
+}
+
+.card {
+  background: #0a1030;
+  border: 2px solid #3a2a8a;
+  border-radius: 12px;
+  padding: 20px;
+  width: 33%;
+}
+
+.card:hover {
+  border-color: cyan;
+  box-shadow: 0 0 15px cyan;
+}
+
+.card p { color: #b5bbe0; }
+.card h3 { color: cyan; }
+.card hr { width: 50px; margin-left: 0; border: 2px solid #8a3ffc; }
+.highlight { color: #b266ff !important; }
+
+/* Skill badges */
+.skill {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 8px;
+  margin: 3px;
+  font-weight: bold;
+}
+
+.orange { background: #e44d26; }
+.blue { background: #1572b6; }
+.grey { background: #4a5a8a; }
+.purple { background: #7d3fe0; }
+
+/* Projects */
+.project {
+  border: 1px solid lime;
+  border-radius: 8px;
+  padding: 5px 12px;
+  margin-bottom: 10px;
+}
+
+.project h3 { color: lime; }
+
+/* Contact and footer */
+.contact { text-align: center; padding: 30px; }
+.contact h2 { color: cyan; }
+a { color: lime; }
+
+.footer {
+  background: #0a1030;
+  text-align: center;
+  padding: 15px;
+}
